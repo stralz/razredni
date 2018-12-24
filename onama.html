@@ -5,35 +5,52 @@
 		<meta name="description" content="Strahinja">
 		<meta name="title" content="Cokolade.com">
 		<meta name="description" content="Čokolade.com je zvanični websajt ">
-        <title>O nama</title>
-		<link rel="stylesheet" href="css/style.css">
+        <title>Čokolade.com | O nama</title>
+        <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js"></script>
     </head>
     <body>
         <header>
-			<a href="index.html"><img src="img/logo.png" alt="logo"></a>
-			<nav>
-				<span class="navmenu"><a href="index.html"><strong>POČETNA</strong></a></span>
-				<span class="navmenu"><a href="onama.html"><strong>O NAMA</strong></a></span>
-				<span class="navmenu"><a href="cene.html"><strong>CENE</strong></a></span>
-			</nav>
+			<nav class="navbar navbar-dark navbar-expand-sm bg-warning">
+                <a class="navbar-brand" href="index.html">
+                    Čokolade.com
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">POČETNA</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="onama.html">O NAMA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cene.html">CENE</a>
+                    </li>
+                </ul>
+            </nav>
 		</header>
-        <div id="container">
+        <div class="container-fluid">
+            <br>
             <h1>O nama</h1>
             <article>
                 <p>Čokolade.com je websajt na kome možete kupiti savakakve vrste čokolada napravljene sa ljubavlju
                 od strane razinh proizvodjača širom sveta.</p>
                 <h3><em>Ovo su naši zaposleni: Dragan Pobeguljić, Jelena Zhung Lee i Božidar Svetlo.</em></h1>
-                <img src="img/zaposleni.jpg" alt="zaposleni" width="100%">
+                <img src="img/zaposleni.jpg" alt="zaposleni" width="40%">
             </article>
             <article>
                 <h2>Mlečna čokolada</h2>
-                <p>je poslastičarski proizvod koji se pravi od kakaoa, mleka, masti, zaslađivača i drugih dodataka. <a href="#cenovnik">Cenovnik</a></p>
+                <p>je poslastičarski proizvod koji se pravi od kakaoa, mleka, masti, zaslađivača i drugih dodataka. <a href="#proces">Proces pravljenja čokolade.</a></p>
                 <p>
                     Kakao su kultivisale mnoge kulture više od tri milenijuma u Mezoamerici. Najranija evidencija upotrebe čokoladnih pića potiče od Mokaja (Meksiko i Gvatemala) iz perioda oko 1900 p. n. e. Zapravo, većina mezoameričkih naroda je koristila čokoladna pića, uključujući Maje i Asteke, koji su pravili piće poznato kao xocolātl, što je navatlska reč sa značenjem „gorka voda”. Seme kakao drveta ima intezivno gorak ukus i mora biti fermentisano da bi se razvila aroma.
 
                     Nakon fermentacije, zrna se suše, čiste, i peku. Ljuska se uklanja da bi se proizvela kakao jezgra, koja se zatim melju do kakao mase, neobrađene čokolade u gruboj formi. Kad se kakao masa utečni zagrevanjem, nastaje čokoladna tečnost. Tečnost se isto tako može ohladiti i obraditi u dve komponente: kakao čvrstu masu i kakao buter. Čokolada za kuvanje, koje je naziva i gorkom čokoladom, sadrči kakao čvrstu materiju i kakao buter u varirajućim proporcijama, bez dodatog šećera. Najveći deo čokolade koja se konzumira u današnje vreme je u formi slatke čokolade, kombinacije kakao čvrste mase, kakao butera ili dodatog biljnog ulja, i šećera. Mlečna čokolada je slatka čokolada koja dodatno sadrži mleko u prahu ili kondenzovano mleko. Bela čokolada sadrži kakao buter, šećer, i mleko, ali ne i kakao čvrstu masu.
                 </p>
-                <img src="img/mlecna_cokolada.png" alt="mlecna_cokolada" width="100%">
+                <img src="img/mlecna_cokolada.png" alt="mlecna_cokolada" width="40%">
             </article>
             <article>
                 <h2>Etimologija</h2>
@@ -44,12 +61,15 @@
             </article>
             <article>
                 <h1>Kako se pravi čokolada?</h1>
-                <iframe width="500" height="281" src="https://www.youtube.com/embed/xkVlDRiB7j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="proces" width="800" height="450" src="https://www.youtube.com/embed/xkVlDRiB7j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p>Hvala <a href="https://www.discovery.com/">Discovery Chanel-u</a> na video snimku.</p>
             </article>
+        </div>
+        <div id="footer" class="text-right">
             <footer>
-    			<p><em>Copyright©. Sva prava zadržava Cokolade.com</em></p>
-    		</footer>
+                <em>Copyright©. Sva prava zadržava Cokolade.com</em>
+                    | E-mail: info@cokolade.com
+            </footer>
         </div>
     </body>
 </html>

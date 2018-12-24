@@ -1,31 +1,40 @@
 body {
-    font-family: "Calibri";
-    margin: 0;
-    font-weight: 300;
-    background-color: #ddb439; // MAIN COLOR #663300, SECONDARY COLOR ddb439
-}
-
-#container {
-    margin: auto;
-    width: 60%;
-}
-
-.navmenu > a{
-    letter-spacing: 2px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    overflow: hidden;
-}
-
-.navmenu > a:hover {
-    color: #CC6600;
-}
-
-a {
-    color: #033a00;
+    background-color: #ffc107;
+    font-family: "Georgia";
 }
 
 footer {
-    color: #033a00;
+    line-height: 120px;
+    padding-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #212529;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: url('../img/banner2.jpg');
+    background-size: 100%;
+    background-blend-mode: luminosity;
+    margin-bottom: 0;
+}
+
+.jumbotron a {
+    color: white;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.navbar-brand{
+    color: #ad5b00 !important;
+    font-size: 55px;
+    font-weight: 500;
+    -webkit-text-stroke: 0.7px black;
 }
