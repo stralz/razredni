@@ -6,6 +6,12 @@ body {
 footer {
     line-height: 120px;
     padding-right: 10px;
+	float: right;
+	position: static;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #ffc107;
 }
 
 .navbar-nav .nav-item .nav-link{
@@ -16,8 +22,8 @@ footer {
 .jumbotron {
     background-image: url('../img/banner2.jpg');
     background-size: 100%;
+	background-repeat: no-repeat;
     background-blend-mode: luminosity;
-    margin-bottom: 0;
 }
 
 .jumbotron a {
@@ -29,7 +35,7 @@ footer {
 }
 
 .active {
-    text-decoration: underline;
+    border-bottom: 1px solid white;
 }
 
 .navbar-brand{
